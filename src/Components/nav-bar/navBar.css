@@ -1,0 +1,95 @@
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background: transparent;
+}
+#logo {
+  color: #bbbbbb;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 33px;
+  font-display: normal;
+}
+#navlist {
+  display: flex;
+}
+#navlist a {
+  color: rgba(240, 248, 255, 0.8);
+  margin-left: 60px;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+}
+#hackex a:hover {
+  border-bottom: 2px solid rgb(121, 121, 121)  ;
+}
+#hackex {
+  display: flex;
+}
+#sidebar {
+  padding-left: 11px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: c;
+  backdrop-filter: blur(10px);
+  box-shadow: 10px 0 10px #6e6e6e;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#logo-sidebar {
+  color: #bbbbbb;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-size: 33px;
+  font-display: normal;
+}
+#sidebar li a {
+  color: #f0f8ff;
+}
+#sidebar li {
+  width: 100%;
+}
+#res {
+  display: none;
+}
+.svg {
+  background-color: transparent;
+  border: none;
+}
+@media (max-width: 1535px) {
+  header {
+      padding: 15px 3%;
+      transition: .2s;
+  }   
+}
+@media (max-width: 700px) {
+  header {
+    padding: 2px 1%;
+    transition:.2s;
+  }
+  #res {
+    display: block;
+  }
+  #hackex {
+    display: none;
+  }
+}
+@media (max-width: 333px) {
+  #sidebar {
+    width: 100%;
+  }
+}
