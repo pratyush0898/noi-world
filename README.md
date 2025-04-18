@@ -4,7 +4,7 @@ Welcome to the **Noi World** Project Website repository! This project is a dynam
 
 ## Live Preview
 
-The live preview of site is avivale in https://noiworld.netlfy.app/
+The live preview of site is avivale in https://noiworld.netlify.app/
 
 ## Website Features:
 
